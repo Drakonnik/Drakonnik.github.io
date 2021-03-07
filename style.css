@@ -1,0 +1,109 @@
+*, html, body{
+	margin: 0;
+	padding: 0;
+}
+.heder > p{
+	font-size: 30px;
+	text-align: center;
+	font-family: Verdana;
+	color: white;
+}
+.heder {
+	background-image: url(img/img21.jpg);
+	padding-top: 40px; 
+	padding-bottom: 60px;
+}
+.text-box {
+	width: 650px;
+	color: white;
+	font-family: Verdana;
+	text-align: left;
+	margin-left: 300px;
+	margin-top: 300px;
+	margin-bottom: 300px;
+
+}
+.text-top{
+	font-size: 30px;
+	color: #b3bbb6;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.title{
+	font-size: 65px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.text-bottom{
+	font-size: 22px;
+	color: #aac1ab;
+
+}
+.galereya{
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+img{
+	width: 600px;
+}
+.text-galereya{
+	font-size: 20px;
+}
+.gal{
+	font-size: 38px;
+	font-family: Verdana;
+}
+.text-block{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 15px;
+}
+.second-image{
+	width: 400px;
+	display: inline-block;
+}
+.second-image img{
+	width: 390px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.image-block{
+	font-size: 0;
+	align-items: end;
+	display: flex;
+}
+.knopochka{
+	display: block;
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	background-color: green;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Verdana;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.knopochka:hover{
+	background-color: #FF6600;
+}
+.footer{
+	padding-top: 30px;
+	padding-bottom: 60px;
+	background-image: url(img/img3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer p{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	width: 400px;
+	margin: auto;
+}
